@@ -1,4 +1,10 @@
 @import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+
+@theme {
+  --font-playfair: "Playfair Display", serif; 
+}
 
 
 @keyframes anim-marquee {
@@ -12,5 +18,22 @@
 .animate-marquee {
   animation: anim-marquee 25s forwards infinite;
   display: flex;
-  width: fit-content;
+
+}
+
+.animate-text-gradient {
+  background-size: 300%; /* Adjust as needed for desired gradient movement */
+  animation: animatedgradient 6s ease infinite alternate;
+}
+
+@keyframes animatedgradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }

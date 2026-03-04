@@ -33,7 +33,7 @@ const Header = () => {
     </button>
 
     <button className="lg:hidden text-3xl  bg-amber-200 px-2 py-1 cursor-pointer z-10" onClick={toggleMobileMenu}>
-          { !openMenu ? <FaTimes /> : <FaBars />}
+          { openMenu ? <FaTimes /> : <FaBars />}
     </button>
 </nav>
     </header>

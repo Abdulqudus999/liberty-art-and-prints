@@ -58,6 +58,32 @@ const servicesData = [
     image1: gPrinting,
     text1: 'Clothing Customization'
   },
+  {
+    idx: 0,
+    image1: signage,
+    text1: 'Outdoor Signage'
+  },
+  {
+    idx: 1,
+    image1: cladding,
+    text1: 'Outdoor Cladding'
+  },
+  {
+    idx: 2,
+    image1: branding,
+    text1: 'Outdoor signage'
+  },
+  {
+    idx: 3,
+    image1: generalPrinting,
+    text1: 'General Printing'
+  },
+  {
+    idx: 4,
+    image1: gPrinting,
+    text1: 'Clothing Customization'
+  },
+  
 ]
 
 const Services = () => {
@@ -69,11 +95,11 @@ const Services = () => {
         <div className='animate-marquee flex w-max gap-8'>
           {
             servicesData.map((item, idx) => (
-              <div key={idx} className='flex flex-col items-center justify-center px-5 py-3'>
-                <div>
-                  <img src={item.image1} alt="" className='' />
+              <div key={idx} className='px-5 py-3 flex flex-col gap-1.5'>
+                <div >
+                  <img src={item.image1} alt="" className='h-64 lg:h-72 rounded-xl' />
                 </div>
-                <p className='text-base text-blue-600 tracking-tight'>{item.text1}</p>
+                <p className='text-base lg:text-lg text-center font-bold text-blue-600'>{item.text1}</p>
               </div>
             ))
           }
