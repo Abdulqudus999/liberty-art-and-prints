@@ -88,7 +88,7 @@ const servicesData = [
 
 const Services = () => {
   return (
-    <section className='static'>
+    <section className='static py-10 bg-purple-500/35'>
       <SectionsTitle title="Our Services" subtitle="We offer expertise in these range of services" />
 
       <div className='overflow-hidden whitespace-nowrap my-10 relative'>
