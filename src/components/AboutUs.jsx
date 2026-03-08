@@ -8,13 +8,13 @@ import 'swiper/css';
 import 'swiper/css/effect-cube';
 import 'swiper/css/pagination';
 
-import gridImage1 from '../assets/about-img7.jpg'
-import gridImage2 from '../assets/about-img6.jpg'
-import gridImage3 from '../assets/about-img1.jpg'
-import gridImage4 from '../assets/about-img3.jpg'
-import gridImage5 from '../assets/about-img2.jpg'
-import gridImage6 from '../assets/about-img4.jpg'
-import gridImage7 from '../assets/about-img5.jpg'
+import gridImage1 from '../assets/about-img1.png'
+import gridImage2 from '../assets/about-img2.png'
+import gridImage3 from '../assets/about-img3.png'
+import gridImage4 from '../assets/about-img4.png'
+import gridImage5 from '../assets/about-img7.webp'
+import gridImage6 from '../assets/about-img5.png'
+import gridImage7 from '../assets/about-img6.png'
 
 
 import { EffectCube, Pagination , Autoplay } from 'swiper/modules';
