@@ -32,7 +32,7 @@ const Header = () => {
         Get started
     </button>
 
-    <button className="lg:hidden text-3xl  bg-amber-200 px-2 py-1 cursor-pointer z-10" onClick={toggleMobileMenu}>
+    <button className="lg:hidden text-3xl  text-gray-100 px-2 py-1 cursor-pointer z-10" onClick={toggleMobileMenu}>
           { openMenu ? <FaTimes /> : <FaBars />}
     </button>
 </nav>
