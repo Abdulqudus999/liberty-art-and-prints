@@ -9,7 +9,7 @@ const Header = () => {
   const [openMenu, setOpenMenu] = useState(false)
 
   const toggleMobileMenu = () => {
-    setOpenMenu(openMenu);
+    setOpenMenu(!openMenu);
   }
 
   return (
