@@ -8,7 +8,7 @@ const Footer = () => {
     <footer class="px-6 md:px-16 lg:px-24 xl:px-32 pt-8 w-full text-gray-200 py-10 bg-purple-700">
     <div class="flex flex-col md:flex-row justify-between w-full gap-10 border-b border-gray-500/30 pb-6">
         <div class="md:max-w-96">
-            <img src={logo} alt="" className='h-40' />
+            <img src={logo} alt="" className='h-34 rounded-full' />
             <p className="mt-6 text-sm">
                 Liberty Art & Prints is a printing and typesetting industry.
                 Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,

@@ -67,13 +67,13 @@ const OurWorks = () => {
     <section className='py-10  bg-purple-500/35' >
       <SectionsTitle title="Some of our works" subtitle="Browse through some of our works" />
 
-      <div className="grid items-center justify-between px-5 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-6">
+      <div className="grid items-center justify-between container px-5 mx-auto grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-6">
           {
             OurWorksData.map((ourwork, index)=> (
               
               <div key={index}>
                 <div>
-                <img src={ourwork.img} alt="" className='h-74 lg:h-82 rounded-xl' />
+                <img src={ourwork.img} alt="" className='h-74 lg:h-82 rounded-xl object-cover' />
               </div>
               <p>
                   {ourwork.desc}
