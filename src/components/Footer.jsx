@@ -10,9 +10,7 @@ const Footer = () => {
         <div class="md:max-w-96">
             <img src={logo} alt="" className='h-34 rounded-full' />
             <p className="mt-6 text-sm">
-                Liberty Art & Prints is a printing and typesetting industry.
-                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                Liberty Art and Print is a creative powerhouse specializing in Signage, Branding, Cladding, and General Printing. We transform ideas into bold visual expressions that command attention and elevate brands.
             </p>
         </div>
         <div className="flex-1 flex items-start md:justify-end gap-20">
@@ -29,8 +27,8 @@ const Footer = () => {
             <div>
                 <h2 className="font-bold mb-5">Get in touch</h2>
                 <div className="text-sm space-y-2">
-                    <p>+1-212-456-7890</p>
-                    <p>contact@example.com</p>
+                    <p>0808 684 5181</p>
+                    <p>libertyartandprints@gmail.com</p>
                     <div class="flex items-center gap-2 mt-3">
                 <a href="#">
                     <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">

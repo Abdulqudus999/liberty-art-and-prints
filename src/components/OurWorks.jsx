@@ -35,7 +35,7 @@ const OurWorks = () => {
     
     {
       img: theo,
-      desc: 'Theo Wine'
+      desc: 'Hussrite Supermarket'
     },
     {
       img: bolasat,
@@ -75,7 +75,7 @@ const OurWorks = () => {
                 <div>
                 <img src={ourwork.img} alt="" className='h-74 lg:h-82 rounded-xl object-cover' />
               </div>
-              <p>
+              <p className='text-blue-600 text-center text-base lg:text-lg font-bold'>
                   {ourwork.desc}
               </p>
               </div>
